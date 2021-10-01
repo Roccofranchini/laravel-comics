@@ -7,12 +7,17 @@
 	</section>
 	<div class="container">
 		<div class="row">
-			<div class="card">
-                <div class="col">  
-                    <p>comics</p>     
-	            </div>
-            </div>
+            @foreach($comics as $comic)
+                <div class="col-2">  
+                    <div id="card">
+                        <img src="{{$comic['thumb']}}" alt="{{$comic['title']}}" />
+		                <figcaption>{{$comic['title']}}</figcaption> 
+	                </div>
+                </div>
+            @endforeach
 		</div>
 	</div>
 </section>
 @endsection
+
+@section('title')Comics @endsection

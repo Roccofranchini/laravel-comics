@@ -16,3 +16,5 @@
 		    </div>
 	    </section>
 @endsection
+
+@section('title')Characters @endsection

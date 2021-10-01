@@ -3,6 +3,9 @@ footer {
     background-color: #303030;
     position: relative;
     z-index: 1;
+    a {
+        text-decoration: none;
+    }
 }
 
 footer img {

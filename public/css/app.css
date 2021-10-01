@@ -33,38 +33,31 @@ a {
   display: flex;
 }
 
-.container {
+header .container {
   height: 100%;
 }
-
-.row {
+header .row {
   align-items: center;
   height: 100%;
 }
-
-img {
+header img {
   height: 60px;
 }
-
-ul {
+header ul {
   display: flex;
   font-weight: 600;
 }
-
-li {
+header li {
   padding: 0 10px;
   font-size: 12px;
 }
-
-li a {
+header li a {
   padding: 35px 0;
 }
-
-li a:hover {
+header li a:hover {
   color: #0282f9;
 }
-
-.active {
+header .active {
   color: #0282f9;
   border-bottom: 8px solid #0282f9;
 }
@@ -108,27 +101,20 @@ h3, .h3 {
   font-size: 30px;
 }
 
-.card figcaption {
+#card figcaption {
   color: white;
+  text-align: center;
   margin: 10px 0;
   text-align: center;
 }
-.card .col {
-  flex-basis: 16.6666666667%;
-  padding: 0 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.card .col img {
-  width: 60%;
-}
-
 footer {
   height: 100px;
   background-color: #303030;
   position: relative;
   z-index: 1;
+}
+footer a {
+  text-decoration: none;
 }
 
 footer img {

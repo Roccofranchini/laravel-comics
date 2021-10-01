@@ -1,4 +1,4 @@
-<footer>
+    <footer>
 		<div class="container">
 			<div class="d-flex h-100 align-items-center justify-content-between">
 				<div class="sing-up">
