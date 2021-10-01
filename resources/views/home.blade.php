@@ -41,77 +41,19 @@
 	    </section>
     </main>
     <footer>
-    <section id="links">
 		<div class="container">
-			<div class="row">
-				<div class="col-6">
-					<div class="col">
-						<ul>
-							<h4>DC GAMES</h4>
-							<li>Characters</li>
-							<li>Comics</li>
-							<li>Movies</li>
-							<li>TV</li>
-							<li>Games</li>
-							<li>Videos</li>
-							<li>News</li>
-						</ul>
-						<ul>
-							<h4>SHOP</h4>
-							<li>Shop DC</li>
-							<li>Shop DC Collectibles</li>
-						</ul>
-					</div>
-					<div class="col">
-						<ul>
-							<h4>DC</h4>
-							<li>Terms of use</li>
-							<li>Privacy policy</li>
-							<li>Ad choiches</li>
-							<li>Advertising</li>
-							<li>Jobs</li>
-							<li>Subscription</li>
-							<li>Talent Workshops</li>
-							<li>CPSC Certificates</li>
-							<li>Ratings</li>
-							<li>Shop Help</li>
-							<li>Contact Us</li>
-						</ul>
-					</div>
-					<div class="col">
-						<ul>
-							<h4>SITES</h4>
-							<li>DC</li>
-							<li>MAD Magazine</li>
-							<li>DC kids</li>
-							<li>DC Universe</li>
-							<li>DC Power Visa</li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-6">
-					<div class="img-cont">
-						<img src="{{ asset('img/dc-logo-bg.png') }}" alt="" />
-                        
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-		<div class="container">
-			<div class="row">
+			<div class="d-flex h-100 align-items-center justify-content-between">
 				<div class="sing-up">
 					<a href="">SING-UP NOW!</a>
 				</div>
 				<div>
-					<div class="social row">
+					<div class="social d-flex">
 						<a href=""> FOLLOW US</a>
-						<img src="../assets/img/footer-facebook.png" alt="" />
-						<img src="../assets/img/footer-twitter.png" alt="" />
-						<img src="../assets/img/footer-youtube.png" alt="" />
-						<img src="../assets/img/footer-pinterest.png" alt="" />
-						<img src="../assets/img/footer-periscope.png" alt="" />
-						<img src="" alt="" />
+						<img src="{{ asset('img/footer-facebook.png') }}" alt="" />
+						<img src="{{ asset('img/footer-twitter.png') }}" alt="" />
+						<img src="{{ asset('img/footer-youtube.png') }}" alt="" />
+						<img src="{{ asset('img/footer-pinterest.png') }}" alt="" />
+						<img src="{{ asset('img/footer-periscope.png') }}" alt="" />
 					</div>
 				</div>
 			</div>
