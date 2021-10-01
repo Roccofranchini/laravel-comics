@@ -6,7 +6,7 @@
 		<span class="current-series">CURRENT SERIES</span>
 	</section>
 	<div class="container">
-		<div class="row">
+		<div class="row align-items-start gy-3">
             @foreach($comics as $comic)
                 <div class="col-2">  
                     <div id="card">

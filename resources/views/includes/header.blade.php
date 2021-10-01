@@ -1,4 +1,4 @@
-<header id="header">
+<header id="header" class="py-3">
 		<div class="container">
 			<div class="row">
 				<div class="col-6">

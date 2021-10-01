@@ -1,13 +1,20 @@
-#card {
-    figcaption {
-        color: white;
-        text-align: center;
-        margin: 10px 0;
-        text-align: center;
-    }
+.col-2 {
+    text-align: center;
+    height: 100%;
 
-    .col-2 {
+    #card {
+        figcaption {
+            color: white;
+            text-align: center;
+            margin: 10px 0;
+            text-align: center;
+        }
+
         img {
+            height: 160px;
+            width: 160px;
+            object-fit: cover;
+            object-position: top;
         }
     }
 }

@@ -68,7 +68,7 @@ header .active {
 }
 
 #cartoon {
-  height: 300px;
+  height: 320px;
   background-image: url(../img/jumbotron.jpg);
   background-color: lightblue;
   background-size: cover;
@@ -79,7 +79,7 @@ header .active {
   color: white;
   background-color: #0282f9;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 25px;
   padding: 10px;
   position: absolute;
   bottom: -27px;
@@ -89,24 +89,35 @@ header .active {
 #content {
   background-color: black;
 }
-
-.row {
+#content .row {
   padding: 50px 0;
   flex-wrap: wrap;
 }
-
-h3, .h3 {
+#content h3, #content .h3 {
   color: white;
   padding: 40px;
   font-size: 30px;
 }
 
-#card figcaption {
+.col-2 {
+  text-align: center;
+  height: 100%;
+}
+.col-2 #card figcaption {
   color: white;
   text-align: center;
   margin: 10px 0;
   text-align: center;
 }
+.col-2 #card img {
+  height: 160px;
+  width: 160px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+
 footer {
   height: 100px;
   background-color: #303030;
