@@ -76,6 +76,7 @@ li a:hover {
 
 #cartoon {
   height: 300px;
+  background-image: url(../img/jumbotron.jpg);
   background-color: lightblue;
   background-size: cover;
   background-repeat: no-repeat;
@@ -105,6 +106,22 @@ h3, .h3 {
   color: white;
   padding: 40px;
   font-size: 30px;
+}
+
+.card figcaption {
+  color: white;
+  margin: 10px 0;
+  text-align: center;
+}
+.card .col {
+  flex-basis: 16.6666666667%;
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card .col img {
+  width: 60%;
 }
 
 footer {
