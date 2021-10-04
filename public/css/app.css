@@ -54,9 +54,6 @@ header li {
 header li a {
   padding: 35px 0;
 }
-header li a:hover {
-  color: #0282f9;
-}
 header .active {
   color: #0282f9;
   border-bottom: 8px solid #0282f9;
@@ -65,6 +62,11 @@ header .active {
 #header a {
   color: black;
   text-decoration: none;
+}
+
+#header li a:hover {
+  color: #0282f9;
+  transform: scale(1.5);
 }
 
 #cartoon {
