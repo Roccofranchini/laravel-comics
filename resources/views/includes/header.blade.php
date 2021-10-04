@@ -6,13 +6,9 @@
 				</div>
 				<div class="col-6 d-flex align-items-center">
 					<ul class="mb-0">
-						<li><a href="{{ route('characters') }}">CHARACTERS</a></li>
-                        <li><a href="{{ route('comics') }}">COMICS</a></li>
-                        <li><a href="">MOVIES</a></li>
-                        <li><a href="">TV</a></li>
-                        <li><a href="">GAMES</a></li>
-                        <li><a href="">COOLECTIBLES</a></li>
-                        <li><a href="">VIDEOS</a></li>
+						@foreach ($links as $link)	
+							<li><a href="{{ route($link['route']) }}">{{$link['text']}}</a></li>
+						@endforeach
 					</ul>
 				</div>
 			</div>
