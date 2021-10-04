@@ -1,12 +1,36 @@
 #comic {
-    .blue-line {
-        height: 50px;
-        width: 100%;
-        background-color: $primary;
+    .container {
+        max-width: 900px;
+        margin: auto;
     }
 
-    .buy {
-        background-color: #55ba59;
-        color: #99d49b;
+    .blue-line {
+        height: 80px;
+        width: 100%;
+        background-color: $primary;
+
+        img {
+            position: absolute;
+            top: -200px;
+            left: 250px;
+            max-height: 250px;
+        }
     }
+
+    h2 {
+        color: rgb(30, 30, 134);
+        text-transform: uppercase;
+    }
+    h6 {
+        color: rgb(30, 30, 134);
+        font-size: 15px;
+    }
+
+    .col-9 p {
+        font-size: 14px;
+    }
+}
+.buy {
+    background-color: #55ba59;
+    color: #99d49b;
 }

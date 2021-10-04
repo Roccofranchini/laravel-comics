@@ -7,10 +7,10 @@
 	</section>
 	<div class="container">
 		<div class="row align-items-start gy-3">
-            @foreach($comics as $comic)
+            @foreach($comics as $index => $comic)
                 <div class="col-2">  
                     <div id="card">
-                        <img src="{{$comic['thumb']}}" alt="{{$comic['title']}}" />
+                        <a href="{{ url("/comics/$index")}}"><img src="{{$comic['thumb']}}" alt="{{$comic['title']}}" /></a>
 		                <figcaption>{{$comic['title']}}</figcaption> 
 	                </div>
                 </div>

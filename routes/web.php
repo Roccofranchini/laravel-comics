@@ -16,17 +16,22 @@ Route::get('/characters', function () {
     return view('characters');
 })->name('characters');
 
+// --- COMICS
+
 Route::get('/', function () {
     return view('comics', ['comics' =>config('comics')]);
 })->name('comics');
 
-Route::get('/comic', function () {
-    $comics = config('comics');
-    $comic = $comics[1];
+//COMICS
 
-    return view('comic',['comics' => $comic]);
+Route::get('/comics/{id}', function ($id) {
+    $comics = config('comics');
+    $comic = $comics[$id];
+
+    return view('comic', compact('comic'));
 })->name('comic');
 
+// MOVIES
 
 Route::get('/movies', function () {
     return view('movies');

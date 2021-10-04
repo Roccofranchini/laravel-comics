@@ -4,21 +4,26 @@
 <section id="comic" class="mb-4">
 		    <section id="cartoon">
 		    </section>
-            <div class="blue-line"></div>
+            <div class="blue-line position-relative">
+                <img class="shadow-lg" src="{{$comic['thumb']}}" alt="">
+            </div>
 		    <div class="container">
-			    <div class="row">
-				    <div class="col-9">
-                        <h3>ACTION COMICS #1000: THE DELUXE EDITION</h3>
-                        <div class="buy row gy-2">
-                            <div class="col-9 d-flex justify-content-between border-end">
-                                <span>U.S. Price <span class="text-white">19.99$</span></span>
+			    <div class="row align-items-start">
+				    <div class="col-8 pe-4">
+                        <h2 class="pb-4 pt-5 mb-0">{{$comic['title']}}</h2>
+                        <div class="buy shadow-lg row gy-2 mb-4">
+                            <div class="col-9 mt-0 py-2 d-flex justify-content-between border-end">
+                                <span>U.S. Price <span class="text-white">{{$comic['price']}}</span></span>
                                 <span>AVAILABLE</span>
                             </div>
-                            <div class="col-3"><span class="text-white">Check avalability</span></div>
+                            <div class="col-3 mt-0"><span class="text-white">Check avalability</span></div>
                         </div>
-                        <p>The celebration of 1,000 issues of Action Comics continues with a new, Deluxe Edition of the amazing comic that won raves when it hit comics shops in April! This hardcover includes all the stories from that issue, plus the tale by writer Paul Levitz and artist Neal Adams that appeared in the Action Comics: 80 Years Of Superman hardcover, as well as all the variant covers, design sketches by Jim Lee for Superman’s new look, scripts for the stories, the original art from the lost story featuring art by Curt Swan and more! Plus: a complete reprint of the stories that started it all—the Superman stories Action Comics #1 and 2 from 1938!</p>
+                        <p class="ps-0">{{$comic['description']}}</p>
                     </div>
-				    <div class="col-3"></div>
+				    <div class="col-4 h-100">
+                        <h6 class="pt-4 mt-2  text-end">ADVERTISMENT</h6>
+                        <img class="shadow-lg" src="{{ asset('img/adv.jpg') }}" alt="">
+                    </div>
 			    </div>
 		    </div>
 	    </section>
