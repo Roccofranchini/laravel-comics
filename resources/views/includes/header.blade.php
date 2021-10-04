@@ -7,7 +7,7 @@
 				<div class="col-6 d-flex align-items-center">
 					<ul class="mb-0">
 						@foreach ($links as $link)	
-							<li><a href="{{ route($link['route']) }}">{{$link['text']}}</a></li>
+							<li><a class="{{ request()->routeIs($link['route']) ? 'active' : '' }}" href="{{ route($link['route']) }}">{{$link['text']}}</a></li>
 						@endforeach
 					</ul>
 				</div>
